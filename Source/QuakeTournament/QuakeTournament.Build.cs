@@ -28,6 +28,15 @@ public class QuakeTournament : ModuleRules
 		{ 
 			"QuakeTournament"
 		});
+		
+		if (Target.bBuildEditor == true)
+		{
+			PrivateDependencyModuleNames.AddRange(
+				new string[]
+				{
+					"BlueprintGraph"
+				});
+		}
 
 
 		// Uncomment if you are using online features
