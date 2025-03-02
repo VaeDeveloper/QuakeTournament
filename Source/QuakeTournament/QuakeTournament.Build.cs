@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Quake Tournament. All rights reserved.
 
 using UnrealBuildTool;
 
