@@ -20,8 +20,4 @@ protected:
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-	UPROPERTY(EditAnywhere, Category = "WeaponComponent|Weapons")
-	float Test = 1.0f;
-
 };
